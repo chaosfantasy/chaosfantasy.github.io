@@ -7,6 +7,23 @@ a:hover
 {
 	text-decoration: none;
 }
+.btn    /*行動版之下拉選單*/
+{
+	display: block;
+	width: 100px;
+	height: 40px;
+	position: fixed;
+	z-index: 5;
+	top:25%;
+	left:0;
+}
+@media screen and (min-width: 920px)
+{
+	.btn    
+	{
+		display: none;
+	}
+}
 .navbar /* 上方標題部 */
 {
 	width: 100%;
@@ -21,6 +38,15 @@ a:hover
 	height: 350px;
 	background-image: url('img/WOW.JPG');
 	background-size:100% 100%;
+}
+@media screen and (max-width: 600px)
+{
+	.navbar .top   
+	{
+		width: 100%;
+		height: 100px;
+		background: none;
+	}
 }
 .navbar .bottom   /* 標題部連結圖示 */
 {
@@ -38,7 +64,13 @@ a:hover
 	font-size: 32px;
 	color: white;
 }
-
+@media screen and (max-width: 920px)
+{
+	.navbar .menu    
+	{
+		display: none;
+    }
+}
 
 .block1   /* 本體歷代版本區域 */
 {
@@ -56,6 +88,17 @@ a:hover
 	font-size: 120px;
 	text-align:center;
 	color:white;
+}
+@media screen and (max-width: 600px)
+{
+	.titletext   
+	{
+		width: 100%;
+		height: 150px;
+		font-size: 60px;
+	    text-align:center;
+	    color:white;
+    }
 }
 .bundles /* 各區域之全包覆 */
 {
@@ -182,6 +225,13 @@ a:hover
 	width: 50%;
 	/* height: 320px; */
 }
+@media screen and (max-width: 600px)
+{
+	.block4 .bundles .derivative 
+	{
+		width: 85%;
+	}	
+}
 .footer         /* 標尾區塊 */
 {
 	width: 100%;
@@ -193,10 +243,18 @@ a:hover
 }
 .contact        /* 標尾文字區塊 */
 {
-	width: 50%;
+	width: 100%;
+	background: rgba(1, 1, 1, 0.3);
 	/* height: 200px; */
 	font-size: 43px;
 	text-align:center;
 	word-wrap:break-word;
-	background-color: gray;
+	color: white;
+}
+@media screen and (max-width: 490px)
+{
+	.contact 
+	{
+		font-size: 25px;
+	}
 }
