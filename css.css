@@ -1,0 +1,201 @@
+*
+{
+	margin: 0 auto;
+	font-family: "微軟正黑體";
+}
+a:hover 
+{
+	text-decoration: none;
+}
+.navbar /* 上方標題部 */
+{
+	width: 100%;
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar .top   /* 標題部進版圖 */
+{
+	width: 100%;
+	height: 350px;
+	background-image: url('img/WOW.JPG');
+	background-size: cover;
+}
+.navbar .bottom   /* 標題部連結圖示 */
+{
+	width: 100%;
+	height: 139px;
+	display: inline-flex;
+}
+.navbar .menu     /* 標題部連結文字 */
+{
+	width: 20%;
+	height:139px;
+	background-color: black ;
+	writing-mode: vertical-rl;
+	font-size: 32px;
+	color: white;
+}
+
+
+.block1   /* 本體歷代版本區域 */
+{
+	width: 100%;
+	/* height: 1200px; */
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.titletext   /* 各區域之標題文字 */
+{
+	width: 100%;
+	height: 150px;
+	font-size: 120px;
+	text-align:center;
+	color:white;
+}
+.bundles /* 各區域之全包覆 */
+{
+	width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.block1 .bundles .version  /* 歷代版本之單版本區塊 */
+{
+	width: 325px;
+	/* height: 450px; */
+	/* border: solid 1px; */
+}
+.block1 .bundles .version .mark_pic  /* 單版本之版本logo */
+{
+	width:325px;
+	height: 240px;
+}
+.block1 .bundles .version .vertext /* 單版本之文字敘述 */
+{
+	font-size: 25px;
+	text-align:center;
+	background-color: gray;
+}
+.block2   /* 本體劇情介紹區域 */
+{
+	width: 100%;
+	/* height: 2200px; */
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.block2 .main_story   /* 劇情介紹之主要世界劇情 */
+{
+	width: 90%;
+}
+
+.block2 .main_story_read   /* 劇情介紹之主要世界劇情閱讀 */
+{
+	width: 90%;
+	font-size: 23px;
+	color:white;
+	background-color:rgba(0,0,0,0.7);
+}
+.block2 .bundles .race_story   /* 各種族劇情 */
+{
+	width: 300px;
+	height: 255px;
+	/* border: solid 1px; */
+}
+.block2 .bundles .race_story .race_pic  /* 各種族圖片 */
+{
+	width: 300px;
+	height: 220px;
+}
+.block2 .bundles .race_story .race_name    /* 各種族名 */
+{
+	width: 300px;
+	height: 35px;
+	font-size: 30px;
+	text-align:center;
+	background-color: gray;
+}
+.block3     /* 本體職業區塊 */
+{
+	width: 100%;
+	/* height: 1400px; */
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/* .block3 .titlepic        職業區塊標題圖片
+{
+	width: 90%;
+	height: 690px;
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-size: 100% 100%;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+}廢棄 */
+/* .block3 .readbox        職業區塊標題圖片中文字
+{ 
+	width: 100%;
+	height: 150px;
+	font-size: 120px;
+	text-align:center;
+}廢棄 */
+.block3 .bundles .job            /* 職業區塊中各職業區塊 */
+{
+	width: 295px;
+	height: 175px;
+	border: solid 1px;
+}
+.block3 .bundles .job .job_pic     /* 各職業之縮圖 */
+{
+	width: 295px;
+	height: 140px;
+}
+.block3 .bundles .job .job_name      /* 各職業之職業名 */
+{
+	width: 295px;
+	height: 35px;
+	font-size: 30px;
+	text-align:center;
+	background-color: gray;
+}
+.block4         /* 衍生作品區塊 */
+{
+	width: 100%;
+	/* height: 470px; */
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.block4 .bundles .derivative     /* 衍生作品代表圖片 */
+{
+	width: 50%;
+	/* height: 320px; */
+}
+.footer         /* 標尾區塊 */
+{
+	width: 100%;
+	/* height: 350px; */
+	background-image: url('img/1680_cataclysm_wow.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.contact        /* 標尾文字區塊 */
+{
+	width: 50%;
+	/* height: 200px; */
+	font-size: 43px;
+	text-align:center;
+	word-wrap:break-word;
+	background-color: gray;
+}
